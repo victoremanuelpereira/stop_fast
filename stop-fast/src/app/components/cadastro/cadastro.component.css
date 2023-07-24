@@ -34,3 +34,15 @@
     font-family: 'VT323', monospace;
     font-size: larger;
 }
+
+.cadastro button{
+    background-color: #25632D;
+    width: 20vw;
+    height: 8vh;
+    margin: auto;
+    border:none;
+    border-radius: 10px;
+    font-family: 'VT323', monospace;
+    font-size: larger;
+    color: #E6E2E2;
+}
