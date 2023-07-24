@@ -1,0 +1,36 @@
+.cadastrado{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.cadastrado span{
+    background-color: #E6E2E2;
+    margin: 1rem;
+    width: 28vw;
+    padding: 1em;
+    padding-left: 1em;
+    border: none;
+    border-radius: 20px;
+}
+
+.cadastrado img{
+    border-radius: 50%;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.cadastro input{
+    border: none;
+    border-radius: 5px;
+    width: 30vw;
+    height: 6vh;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-family: 'VT323', monospace;
+    font-size: larger;
+}

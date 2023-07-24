@@ -1,0 +1,16 @@
+.financas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.financas span{
+    background-color: #E6E2E2;
+    margin: 1rem;
+    width: 28vw;
+    padding: 1em;
+    padding-left: 1em;
+    border: none;
+    border-radius: 20px;
+}

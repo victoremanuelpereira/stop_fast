@@ -7,6 +7,8 @@ import { LoginComponent } from './components/login/login.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { EntrarComponent } from './components/entrar/entrar.component';
 import { SairComponent } from './components/sair/sair.component';
+import { FinancasComponent } from './components/financas/financas.component';
+import { CadastroComponent } from './components/cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SairComponent } from './components/sair/sair.component';
     LoginComponent,
     MenuComponent,
     EntrarComponent,
-    SairComponent
+    SairComponent,
+    FinancasComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
