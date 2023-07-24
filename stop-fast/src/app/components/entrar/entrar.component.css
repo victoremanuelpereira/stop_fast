@@ -1,0 +1,51 @@
+.ticket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket input{
+    width: 30vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'VT323', monospace;
+    font-size: larger;
+}
+
+.ticket input:focus{
+    outline: none;
+}
+
+.ticket button{
+    background-color: #FFDE59;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    width: 7rem;
+    height: 8vh;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFDE59;
+    font-family: 'VT323', monospace;
+    font-size: larger;
+}
+
+.ticket button:hover{
+    background-color: #fae593;
+}
+
+.span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.span span{
+    background-color: #E6E2E2;
+    padding: 1em;
+    border:none;
+    border-radius: 8px;
+}

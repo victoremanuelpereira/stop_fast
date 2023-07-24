@@ -1,0 +1,35 @@
+.back-menu{
+    background-color: #FFDE59;
+    display: flex;
+    flex-direction: column;
+    width: 4.5rem;
+    margin-left: 8vw;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-top: 15px;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 4vw;
+}
+
+.icon{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3vh;
+    
+}
+
+.icon img{
+    border-radius: 50%;
+    
+}
+
+.icon p{
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    
+}

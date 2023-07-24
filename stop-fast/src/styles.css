@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #5271FF;
+}
+
+.fontpixel{
+    font-family: 'VT323', monospace;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: monospace, Geneva, Tahoma, sans-serif;
+}
