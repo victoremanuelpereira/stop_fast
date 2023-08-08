@@ -1,6 +1,45 @@
-<app-login></app-login>
-<app-menu></app-menu>
-<app-entrar></app-entrar>
-<app-sair></app-sair>
-<app-financas></app-financas>
-<app-cadastro></app-cadastro>
+<div class="container">
+    <div class="menu">
+      <div class="back-menu">
+        <div class="icon">
+            <a routerLink="/entrar">
+              <img src="assets/images/1.png" >
+              <p>Entrar</p>
+            </a>
+        </div>
+            
+        <div class="icon">
+            <a routerLink="/sair">
+              <img src="assets/images/2.png" >
+              <p>Sair</p>
+            </a>
+        </div>
+    
+        <div class="icon">
+            <a routerLink="/financas">
+              <img src="assets/images/3.png" >
+              <p>Finança</p>
+            </a>
+        </div>
+    
+        <div class="icon">
+            <a routerLink="cadastro">
+              <img src="assets/images/4.png" >
+              <p>Cadastro</p>
+            </a>
+        </div>
+    
+        <div class="icon">
+            <a routerLink="/login">
+              <img src="assets/images/5.png" >
+              <p>Logout</p>
+            </a>
+        </div>
+    </div>
+    
+    </div>
+    <div class="center">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  

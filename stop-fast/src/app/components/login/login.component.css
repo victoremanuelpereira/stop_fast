@@ -27,7 +27,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 15rem;
-    height: 2rem;
+    height: 2.5rem;
     border: none;
     border-radius: 10px ;
     
@@ -37,6 +37,7 @@
 .input-text{
     padding-left: 10px;
     font-family: 'VT323', monospace;
+    font-size: 1.5rem;
 }
 
 
