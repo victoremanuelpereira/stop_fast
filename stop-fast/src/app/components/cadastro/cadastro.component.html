@@ -1,11 +1,12 @@
-<div class="cadastrado">
-    <span>teste</span> <img src="/assets/images/trash.png" alt="">
+<div class="cadastrado" *ngFor="let usuario of usuariosCadastrados">
+    <span>{{ usuario.nome }}</span> <img src="/assets/images/trash.png">
 </div>
 
-<div class="cadastro">
-    <input type="text" placeholder="Nome">
-    <input type="password" placeholder="Senha">
-    <button>Cadastrar</button>
-</div>
+<form (ngSubmit)="cadastrarUsuario()" class="cadastro">
 
-
+    <input type="text" placeholder="Nome" [(ngModel)]="user.nome">
+    <input type="password" placeholder="Senha" [(ngModel)]="user.senha">
+    <button type="submit">Cadastrar</button>
+  
+</form>
+  
